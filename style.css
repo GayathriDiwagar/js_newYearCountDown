@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://media.istockphoto.com/id/1333302115/video/2022-happy-new-year-greeting-text-with-particles-and-sparks-on-black-night-sky-motion.jpg?s=640x640&k=20&c=0poYRiTjXU5KSpNBAoPmlaPHGqb_8UzOCvdJfq0i81w=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.countdown
+{
+    display: flex;
+    font-family: cursive;
+}
+.time
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.small
+{
+    font-size: 20px;
+}
+#nxtyr{
+    font-weight: bold;
+}
